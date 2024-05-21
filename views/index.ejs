@@ -27,7 +27,7 @@
     <form action="/signup" method="POST">
       <div class="form-group">
         <label for="registName">您的稱呼</label>
-        <input type="text" class="form-control" id="RegistName" placeholder="小名" name="RegistName" maxlength="10">
+        <input type="text" class="form-control" id="registName" placeholder="小名" name="registName" maxlength="10">
       </div>
       <div class="form-group">
         <label for="registEmail">電子郵件</label>
@@ -48,12 +48,12 @@
     <form action="/singin" method="post">
       <div class="form-group">
         <label for="loginEmail">電子郵件</label>
-        <input type="text" class="form-control" id="loginEmail" placeholder="name@aaa.com" name="loginEmail" maxlength="50">
+        <input type="text" class="form-control" id="loginEmail" placeholder="name@aaa.com" name="loginEmail" maxlength="50" value="aaa@aaa.com">
       </div>
 
       <div class="form-group">
         <label for="loginPWD">輸入密碼</label>
-        <input type="password" class="form-control" id="loginPWD" name="loginPWD" maxlength="20">
+        <input type="password" class="form-control" id="loginPWD" name="loginPWD" maxlength="20" value="abc">
       </div>
       <button type="submit" class="btn btn-primary btn-lg btn-block">登入會員</button>
     </form>

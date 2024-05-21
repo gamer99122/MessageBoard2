@@ -92,7 +92,7 @@ app.post("/singin", async function (req, res) {
 
 //註冊會員
 app.post("/signup", async function (req, res) {
-    const name = req.body.RegistName
+    const name = req.body.registName
     const email = req.body.registEmail;
     const password = req.body.registPWD;
     let collection = db.collection("user");
